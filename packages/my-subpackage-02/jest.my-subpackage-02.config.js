@@ -5,8 +5,9 @@ module.exports = {
             launchOptions: {
                 executablePath: process.env.PLAYWRIGHT_CHROME_EXECUTABLE_PATH,
                 headless: true,
-
-                // jest-playwright ignores the following command.
+            },
+            // jest-playwright ignores the following `serverOptions`.
+            serverOptions: {
 
                 command: `yarn run dev`,
                 // command: `yarn workspace my-subpackage-01 dev`, // not sure which command is correct for a sub-package.
