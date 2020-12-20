@@ -8,7 +8,7 @@ module.exports = {
     testTimeout: 30000,
 
     projects: [
-        "./packages/my-subpackage-01/jest.config.js",
-        // "./packages/my-subpackage-02/jest.config.js",
+        "./packages/my-subpackage-01/jest.my-subpackage-01.config.js",
+        // "./packages/my-subpackage-02/jest.my-subpackage-02.config.js",
     ],
 }
