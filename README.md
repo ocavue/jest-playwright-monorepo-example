@@ -1,1 +1,2 @@
-run `yarn test` to start the dev server and run e2e tests.
+1. `yarn install`
+2. `yarn test`
