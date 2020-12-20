@@ -1,0 +1,12 @@
+{
+    "name": "my-subpackage-01",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "next dev --port 3001"
+    },
+    "devDependencies": {
+        "next": "10.0.3",
+        "react": "16.13.1",
+        "react-dom": "16.13.1"
+    }
+}
